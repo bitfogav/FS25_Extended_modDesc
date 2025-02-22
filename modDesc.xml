@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+
+
+<modDesc descVersion="integer">
+
+	<author>string</author>
+
+	<version>string</version>
+	
+	<title>
+		<en>string</en>
+		<de>string</de>
+	</title>
+	
+	<description>
+		<en>string</en>
+		<de>string</de>
+	</description>
+	
+	<iconFilename>string</iconFilename>
+	
+	<multiplayer supported="false" only="false"/>
+	
+	<storeItems>
+		<storeItem xmlFilename="string"/>
+	</storeItems>
+	
+	<dependencies>
+		<dependency>string</dependency>
+	</dependencies>
+	
+	<l10n filenamePrefix="string">
+		<text name="string">
+			<en>string</en>
+			<de>string</de>
+		</text>
+	</l10n>
+	
+	<specializations>
+		<specialization filename="string" name="string" className="string"/>
+	</specializations>
+	
+	<maps>
+		<map filename="string"
+		     id="string"
+		     configFilename="string"
+		     defaultPlaceablesXMLFilename="string"
+		     defaultVehiclesXMLFilename="string"
+		     className="string"
+		     defaultItemsXMLFilename="string"
+		     defaultHandToolsXMLFilename="string">
+			 
+			<title>
+				<en>string</en>
+				<de>string</de>
+			</title>
+			
+			<description>
+				<en>string</en>
+				<de>string</de>
+			</description>
+			
+			<iconFilename>string</iconFilename>
+			
+		</map>
+	</maps>
+	
+	<handToolTypes>
+		<type parent="string" name="string" filename="string"> 
+		<specialization name="string"/>
+		</type>
+	</handToolTypes>
+	
+	<placeableTypes>
+		<type filename="string" parent="string" name="string">
+			<specialization name="string"/>
+		</type>
+	</placeableTypes>
+	
+	<vehicleTypes>
+		<type parent="string" name="string" filename="string">
+			<specialization name="string"/>
+		</type>
+	</vehicleTypes>
+	
+	<handToolSpecializations>
+		<specialization className="string" filename="string" name="string"/>
+	</handToolSpecializations>
+	
+
+	
+	<helpLines>
+		<category title="string">
+			<page title="string" iconFilename="string" iconSliceId="string" id="string">
+				<paragraph noSpacing="boolean">
+					<image uvs="str1 str2 .."
+					       size="1024 1024"
+					       aspectRatio="1"
+					       heightScale="1"
+					       displaySize="string"
+					       filename="string"/>
+					<title text="string"/>
+					<text alignToImage="boolean"
+					      text="string"/>
+				</paragraph>
+			</page>
+		</category>
+	</helpLines>
+	
+	<extraSourceFiles>
+		<sourceFile filename="string"/>
+	</extraSourceFiles>
+	
+	
+	<parentFile xmlFilename="string">
+		<attributes>
+			<set path="string"
+			     value="string"/>
+			<remove path="string"/>
+			<clearList keepIndex="integer"
+			           path="string"/>
+		</attributes>
+	</parentFile>
+	
+	<placeableSpecializations>
+		<specialization className="string" name="string" filename="string"/>
+	</placeableSpecializations>
+	
+	<wildlife filename="string"/>
+	
+
+</modDesc>
+
